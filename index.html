@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informe y presentación del proyecto web de Barbería Barbones VIP.">
+  <title>Barbería Barbones VIP | Informe del proyecto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a class="brand" href="#inicio">BARBONES <span>VIP</span></a>
+      <div class="nav-links">
+        <a href="#proyecto">Proyecto</a>
+        <a href="#procesos">Procesos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#tecnologias">Tecnologías</a>
+      </div>
+    </nav>
+    <section class="hero-content" id="inicio">
+      <p class="eyebrow">INFORME DEL PROYECTO</p>
+      <h1>Barbería <span>Barbones VIP</span></h1>
+      <p class="hero-text">Propuesta de un sistema web para organizar y mejorar la gestión de los servicios de la barbería.</p>
+      <a class="primary-button" href="#proyecto">Conocer el proyecto</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro" id="proyecto">
+      <div>
+        <p class="eyebrow">PRESENTACIÓN</p>
+        <h2>Sobre el proyecto</h2>
+        <p>Barbones VIP es una propuesta de sistema web orientada a apoyar las actividades de una barbería. El proyecto busca centralizar la información y facilitar el control de clientes, citas, servicios, barberos, inventario y reportes.</p>
+        <p>Esta página sirve como portada para el informe académico y como espacio para mostrar fotografías, procesos y tecnologías consideradas en el desarrollo.</p>
+      </div>
+      <div class="highlight-card">
+        <span class="card-icon">✂</span>
+        <h3>Objetivo general</h3>
+        <p>Proponer un sistema web que contribuya a mejorar la organización y el control de los procesos de la barbería.</p>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="procesos">
+      <p class="eyebrow">ALCANCE FUNCIONAL</p>
+      <h2>Procesos que se pueden gestionar</h2>
+      <div class="feature-grid">
+        <article class="feature"><span>01</span><h3>Gestión de clientes</h3><p>Registro y consulta de información de los clientes.</p></article>
+        <article class="feature"><span>02</span><h3>Gestión de citas</h3><p>Organización de horarios, disponibilidad y citas.</p></article>
+        <article class="feature"><span>03</span><h3>Servicios y pagos</h3><p>Control de servicios ofrecidos, precios y pagos.</p></article>
+        <article class="feature"><span>04</span><h3>Inventario</h3><p>Registro de productos y seguimiento de existencias.</p></article>
+        <article class="feature"><span>05</span><h3>Gestión de barberos</h3><p>Información del personal y sus horarios de atención.</p></article>
+        <article class="feature"><span>06</span><h3>Reportes</h3><p>Consulta de datos para apoyar la toma de decisiones.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <p class="eyebrow">EVIDENCIAS DEL PROYECTO</p>
+      <h2>Galería de fotografías</h2>
+      <p class="section-lead">Guarda tus imágenes en la carpeta <code>fotos</code> y actualiza los nombres de archivo en esta sección.</p>
+      <div class="gallery-grid">
+        <figure class="photo-card">
+          <img src="fotos/barberia-1.jpg" alt="Fotografía del local de la barbería" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>+</span><strong>Foto del local</strong><small>fotos/barberia-1.jpg</small></div>
+          <figcaption>Local de Barbería Barbones VIP</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="fotos/servicios-1.jpg" alt="Fotografía de los servicios de barbería" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>+</span><strong>Foto de servicios</strong><small>fotos/servicios-1.jpg</small></div>
+          <figcaption>Servicios ofrecidos</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="fotos/prototipo-1.jpg" alt="Captura del prototipo del sistema web" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>+</span><strong>Foto del prototipo</strong><small>fotos/prototipo-1.jpg</small></div>
+          <figcaption>Prototipo o evidencia del proyecto</figcaption>
+        </figure>
+      </div>
+      <p class="tip"><strong>Importante:</strong> GitHub Pages muestra imágenes que estén guardadas en el repositorio. Coloca allí tus fotos y conserva exactamente los mismos nombres.</p>
+    </section>
+
+    <section class="section tech-section" id="tecnologias">
+      <p class="eyebrow">HERRAMIENTAS</p>
+      <h2>Tecnologías consideradas</h2>
+      <div class="tech-list">
+        <div><strong>HTML5</strong><span>Estructura y contenido de la página.</span></div>
+        <div><strong>CSS3</strong><span>Diseño visual y adaptación a móviles.</span></div>
+        <div><strong>JavaScript</strong><span>Interacciones de la interfaz.</span></div>
+        <div><strong>GitHub Pages</strong><span>Publicación gratuita de esta página estática.</span></div>
+      </div>
+      <p class="section-lead">Esta portada es estática. Si posteriormente necesitas guardar citas, usuarios o pagos, hará falta conectar un backend y una base de datos.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio">BARBONES <span>VIP</span></a>
+    <p>Informe del proyecto web · Barbería Barbones VIP</p>
+    <p class="copyright">© <span id="year"></span> · Proyecto académico</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
